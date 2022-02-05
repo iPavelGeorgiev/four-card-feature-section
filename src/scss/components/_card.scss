@@ -1,0 +1,74 @@
+@use "../abstracts/colors";
+@use "../abstracts/variables" as vars;
+
+.tool-card {
+  position: relative;
+  background-color: colors.$white;
+  border-radius: 0.6rem;
+  padding: 3.2rem;
+  overflow: hidden;
+
+  &-title {
+    font-size: 2rem;
+    color: colors.$very-dark-blue;
+    margin-bottom: 1rem;
+  }
+
+  &-desc {
+    font-size: 1.3rem;
+    margin-bottom: 4.3rem;
+  }
+
+  &-icon {
+    height: 6.4rem;
+    width: 6.4rem;
+    float: right;
+
+    &::after {
+      content: "";
+      display: block;
+      clear: both;
+    }
+  }
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 0.4rem;
+    width: 100%;
+  }
+
+  &:nth-of-type(1) {
+    grid-area: first;
+
+    &::before {
+      background-color: colors.$cyan;
+    }
+  }
+
+  &:nth-of-type(2) {
+    grid-area: second;
+
+    &::before {
+      background-color: colors.$red;
+    }
+  }
+
+  &:nth-of-type(3) {
+    grid-area: third;
+
+    &::before {
+      background-color: colors.$orange;
+    }
+  }
+
+  &:nth-of-type(4) {
+    grid-area: fourth;
+
+    &::before {
+      background-color: colors.$blue;
+    }
+  }
+}
