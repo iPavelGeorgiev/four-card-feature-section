@@ -187,6 +187,7 @@ textarea {
 }
 
 body {
+  position: relative;
   font-family: "Poppins", sans-serif;
   font-size: 1.5rem;
   font-weight: 400;
@@ -304,6 +305,19 @@ body {
 }
 .tool-card:nth-of-type(4)::before {
   background-color: #549ef2;
+}
+
+.attribution {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+  font-size: 12px;
+  color: #333;
+}
+.attribution a {
+  color: #3e52a3;
 }
 
 /*# sourceMappingURL=main.css.map */
