@@ -202,79 +202,79 @@ body {
   padding: 7.8rem 3rem;
 }
 
-.tools {
+.feature {
   max-width: 1117px;
   margin: 0 auto;
 }
-.tools-info {
+.feature-details {
   max-width: 549px;
   margin: 0 auto;
   text-align: center;
   margin-bottom: 6.5rem;
   line-height: 1.4;
 }
-.tools-subtitle {
+.feature-subtitle {
   font-size: 3.6rem;
   color: #4c4e61;
   font-weight: 200;
 }
-.tools-title {
+.feature-title {
   font-size: 3.6rem;
   color: #4c4e61;
   font-weight: 600;
   margin-bottom: 1.8rem;
 }
-.tools-cards {
+.feature-cards {
   display: grid;
-  grid-template-areas: ". second ." "first second fourth" "first third fourth" ". third .";
+  grid-template-areas: ".......... second-card ..........." "first-card second-card fourth-card" "first-card third-card fourth-card" ".......... third-card ............";
   gap: 3rem;
 }
 @media (max-width: 984px) {
-  .tools-cards {
+  .feature-cards {
     grid-template-columns: 1fr 1fr;
-    grid-template-areas: "first second" "first second" "third fourth" "third fourth";
+    grid-template-areas: "first-card second-card" "first-card second-card" "third-card fourth-card" "third-card fourth-card";
   }
 }
 @media (max-width: 599px) {
-  .tools-subtitle {
+  .feature-subtitle {
     font-size: 2.5rem;
   }
-  .tools-title {
+  .feature-title {
     font-size: 2.5rem;
   }
-  .tools-cards {
+  .feature-cards {
     grid-template-columns: 1fr;
-    grid-template-areas: "first" "second" "third" "fourth";
+    grid-template-areas: "first-card" "second-card" "third-card" "fourth-card";
   }
 }
 
-.tool-card {
+.feature-card {
   position: relative;
   background-color: #fff;
   border-radius: 0.6rem;
   padding: 3.2rem;
   overflow: hidden;
 }
-.tool-card-title {
+.feature-card-title {
   font-size: 2rem;
   color: #4c4e61;
   margin-bottom: 1rem;
 }
-.tool-card-desc {
+.feature-card-desc {
   font-size: 1.3rem;
   margin-bottom: 4.3rem;
 }
-.tool-card-icon {
+.feature-card-icon {
   height: 6.4rem;
   width: 6.4rem;
   float: right;
 }
-.tool-card-icon::after {
+.feature-card-icon::after {
   content: "";
   display: block;
   clear: both;
 }
-.tool-card::before {
+.feature-card::before {
   content: "";
   position: absolute;
   top: 0;
@@ -282,28 +282,28 @@ body {
   height: 0.4rem;
   width: 100%;
 }
-.tool-card:nth-of-type(1) {
-  grid-area: first;
+.feature-card:nth-of-type(1) {
+  grid-area: first-card;
 }
-.tool-card:nth-of-type(1)::before {
+.feature-card:nth-of-type(1)::before {
   background-color: #45d3d3;
 }
-.tool-card:nth-of-type(2) {
-  grid-area: second;
+.feature-card:nth-of-type(2) {
+  grid-area: second-card;
 }
-.tool-card:nth-of-type(2)::before {
+.feature-card:nth-of-type(2)::before {
   background-color: #ea5353;
 }
-.tool-card:nth-of-type(3) {
-  grid-area: third;
+.feature-card:nth-of-type(3) {
+  grid-area: third-card;
 }
-.tool-card:nth-of-type(3)::before {
+.feature-card:nth-of-type(3)::before {
   background-color: #fcaf4a;
 }
-.tool-card:nth-of-type(4) {
-  grid-area: fourth;
+.feature-card:nth-of-type(4) {
+  grid-area: fourth-card;
 }
-.tool-card:nth-of-type(4)::before {
+.feature-card:nth-of-type(4)::before {
   background-color: #549ef2;
 }
 
