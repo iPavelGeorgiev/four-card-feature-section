@@ -253,6 +253,7 @@ body {
   background-color: #fff;
   border-radius: 0.6rem;
   padding: 3.2rem;
+  box-shadow: 0 11px 25px -4px #3c72b93d;
   overflow: hidden;
 }
 .feature-card-title {
