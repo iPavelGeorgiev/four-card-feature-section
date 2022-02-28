@@ -32,44 +32,23 @@
     }
   }
 
-  &::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 0.4rem;
-    width: 100%;
-  }
-
   &:nth-of-type(1) {
     grid-area: first-card;
-
-    &::before {
-      background-color: colors.$cyan;
-    }
+    border-top: 0.3rem solid colors.$cyan;
   }
 
   &:nth-of-type(2) {
     grid-area: second-card;
-
-    &::before {
-      background-color: colors.$red;
-    }
+    border-top: 0.3rem solid colors.$red;
   }
 
   &:nth-of-type(3) {
     grid-area: third-card;
-
-    &::before {
-      background-color: colors.$orange;
-    }
+    border-top: 0.3rem solid colors.$orange;
   }
 
   &:nth-of-type(4) {
     grid-area: fourth-card;
-
-    &::before {
-      background-color: colors.$blue;
-    }
+    border-top: 0.3rem solid colors.$blue;
   }
 }
