@@ -32,7 +32,7 @@ I don't have access to the premium Figma/Sketch files, so the design is not pixe
 
 ### Links
 
-- [Live Site URL](https://pavel-frontend-mentor.github.io/four-card-feature-section/)
+- [Live Site URL](https://ipavelgeorgiev.github.io/four-card-feature-section/)
 - [Solution URL](https://www.frontendmentor.io/solutions/four-card-feature-section-wHG9mskh8)
 
 ## My process
@@ -54,6 +54,32 @@ I have learned how to use the google lighthouse tool to improve the performance,
 1. [The target="_blank" vulnerability](https://www.youtube.com/watch?v=0hNDDpljJrs&t=4s&ab_channel=iEatWebsitesShorts) - This video helped me understand the potential vulnerability that target="_blank" could cause and how to fix it.
 2. [noopener, noreferrer, and nofollow attributes](https://www.youtube.com/watch?v=0hNDDpljJrs&t=4s&ab_channel=iEatWebsitesShorts) - This article helped me understand the difference between the three attributes and when to use them.
 3. [ARIA Landmarks](https://www.hassellinclusion.com/blog/html5-sectioning-elements-accessible-landmarks) - This article helped me understand the importance of accessible landmarks.
+
+### Run locally
+
+Clone the project
+
+```bash
+  git clone https://github.com/iPavelGeorgiev/four-card-feature-section.git
+```
+
+Go to the project directory
+
+```bash
+  cd four-card-feature-section
+```
+
+Install dependencies
+
+```bash
+  npm install
+```
+
+Start the server
+
+```bash
+  npm run start
+```
 
 ## Author
 
